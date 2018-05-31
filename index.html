@@ -7,9 +7,11 @@
     <h1>マルチリモート</h1>
 
     <script>
-      var h1 = document.querySelector('h1');
+      var h1 = document.querySelector('h1'), counter = 0;
       setInterval(() => {
         h1.innerHTML ++ '!';
+        counter++;
+        console.log(counter);
       }, 1000)
     </script>
   </body>
